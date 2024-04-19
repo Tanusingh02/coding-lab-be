@@ -1,0 +1,26 @@
+codes/
+outputs/
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore log files
+*.log
+
+# Ignore package-lock.json file (useful when using npm)
+package-lock.json
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore any build output
+build/
+dist/
